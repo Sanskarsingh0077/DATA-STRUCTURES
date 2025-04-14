@@ -2,6 +2,8 @@ class Solution:
     def maxVowels(self, s: str, k: int) -> int:
 
         ''' 
+        Leetcode 1456. Max number of vowels in a substring of given length.
+
         Logic
 
         1.) i=0,j=0->for two ends of our window
