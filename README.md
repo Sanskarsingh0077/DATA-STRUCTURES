@@ -1,2 +1,2 @@
 # Demo
-Its a demo repo
+Repository for keeping records of my leetcode 75 interview questions and their approaches.
