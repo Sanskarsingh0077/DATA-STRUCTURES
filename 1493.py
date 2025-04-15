@@ -28,3 +28,33 @@ class Solution:
             result=max(result, j-i)
 
         return result
+    
+
+    '''
+    class Solution:
+    def longestSubarray(self, nums: List[int]) -> int:
+    
+    
+        #Approach 2(i ko last zero ke next pr bulaao)
+        # Approach:
+        # - Use two pointers (i and j) to create a window
+        # - Track the index of the last seen 0 (since we can only delete one 0)
+        # - When a new 0 is found, move the start of the window (i) to one after the previous 0
+        # - Update the result with the size of the current valid window (j - i)
+
+        i = 0
+        j= 0
+        last_zero_index=-1#(since cant use 0 index)
+
+        result= 0
+
+        while j < len(nums):
+            if nums[j] == 0:
+                i = last_zero_index +1
+                last_zero_index = j
+            
+            result = max(result,j-i)
+            j+=1
+        
+        return result
+    '''
