@@ -1,6 +1,6 @@
 class Solution:
     def closeStrings(self, word1: str, word2: str) -> bool:
-'''
+     '''
     Approach:
     1. Check if the lengths of the two strings are equal. If not, return False.
     2. Create two frequency maps (dictionaries) to count occurrences of each character in both strings.
