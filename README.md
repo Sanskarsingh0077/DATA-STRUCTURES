@@ -1,72 +1,64 @@
-# 🚀 My Data Structures & Algorithms Journey (Python)
+# 🧠 My DSA Journey - Becoming a Code Hero
 
-Welcome to my DSA journey!  
-I'm solving problems daily, improving my logic, and tracking my growth here. This repo holds every solution I write — with code, comments, and learnings along the way.
-
----
-
-## 📌 Why this Repo?
-
-- ✅ To **track my daily progress**
-- 🧠 To build **strong core logic**
-- 💡 To understand **approaches, patterns, and optimizations**
-- 🔁 To revisit and **revise past problems**
-- 🌱 To stay consistent and accountable
+Welcome to my personal quest to become a world-class problem solver! I solve at least **1 problem a day**, log my learnings, and push everything here. It's not just coding — it's leveling up my logic one day at a time. 💪
 
 ---
 
-## 🛠 Languages & Tools
+## 🔥 Streak Progress
 
-- Python 🐍
-- LeetCode 💻
-- Git & GitHub 🔃
-- YouTube + ChatGPT 📚 (for help & deeper understanding)
+| Day | Problem Solved | Notes |
+|-----|----------------|-------|
+| 1   | ✅             | Sliding window intro, easy question |
+| 2   | ✅             | Hashmap pattern recognized |
+| 3   | ✅             | Subsequence problem logic clicked |
+| 4   | ✅             | Built prefix sum approach |
+| 5   | ✅             | Medium-level streak begins |
+| 6   | ✅             | Wrote cleaner code from scratch |
+| 7   | ✅             | Problem looked tough, solved it |
+| 8   | ✅             | Multiple sliding window insights |
+| 9   | ✅             | Learning by translating from C++ |
+| 10  | ✅             | Explored variable window pattern |
+| 11  | ✅             | Matrix-based logic attempt |
+| 12  | ✅             | Understood a LeetCode medium |
+| 13  | ✅             | Hashmap + optimization applied |
+| 14  | ✅             | Matrix & tuple check trick learned |
+| 15  | ✅             | Attempted hard, solved medium |
+| 16  | ✅             | Solved medium stack problem, peeked at hard robot collision – scary but learning! 💥🤖 |
 
----
-
-## 🔥 Format I Follow
-
-Each solution includes:
-- Clean code with comments 💬  
-- Intuition or approach summary 📘  
-- Complexity analysis (Time & Space) ⏱️  
-- Sometimes alternate methods too 🔄
-
----
-
-## 🗓️ My Progress
-
-| Day | Status | Notes |
-|-----|--------|-------|
-| 1   | ✅ Solved 1 easy problem | Started strong! |
-| 2   | ✅ Continued with sliding window |
-| ... | ... | ... |
-| 15  | ✅ Solved medium, attempted hard | Grit day 🔥 |
-
-> I'm logging daily — even on tough days.  
-> Consistency > Perfection.
+> 💡 *Updated daily as I solve problems*
 
 ---
 
-## 📚 Topics Covered So Far
+## ⚔️ Hero XP & Leveling
 
-- Arrays
-- HashMaps
-- Sliding Window
-- Stacks
-- Two Pointers
-- Set Operations
-- Prefix Sum
-- ...and more coming!
+| Difficulty | XP Earned |
+|------------|-----------|
+| Easy       | 10 XP     |
+| Medium     | 20 XP     |
+| Hard       | 40 XP     |
+
+### 🧙 Hero Stats
+
+- **Level**: 3
+- **XP**: 265 / 300
+- **Rank**: Apprentice Coder
+- **Skills**:
+  - Sliding Window Master
+  - HashMap Whisperer
+  - Two Pointers Tactician
+  - Stack 
+  - Prefix/Sufix
+
+> 🏆 *Level up at 300 XP*
 
 ---
 
-## 🎯 Goal
+## 📚 Why I Do This
 
-To become **strong at DSA**, one problem at a time.  
-I'm giving myself 3-6 months to see how far I can go.  
-This is more than just a grind — it’s about becoming the best version of myself, through code.
+I want to build strong logic from the ground up using Python, enjoy every challenge like a puzzle, and never stop learning. Every repo commit = progress.
+
+This is my game. This is my journey. 🎮👨‍💻
 
 ---
 
-**Let’s build. Let’s learn. Let’s level up.** 🚀  
+### ✨ Let's keep the streak alive. Day by day, logic by logic.
