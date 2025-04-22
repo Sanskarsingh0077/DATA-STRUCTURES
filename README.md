@@ -82,12 +82,11 @@ Welcome to my personal quest to become a world-class problem solver! I solve at 
 
 ### 🚀 **Progress Bar**
 
-```markdown
-## **XP Progress:** 
-[██████████──────────] 265/300 XP (Level 3)
+#### **XP Progress:**
+[██████████──────────] 265/300 XP (Level 3)  
 
-## **Hard Problem Progress:**
+#### **Hard Problem Progress:**
 [████████─────────────] 50% - Getting ready for that next hard problem!
 
-## **Days Logged:**
+#### **Days Logged:**
 [█████████████████────] 16/30 days streak!
