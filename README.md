@@ -40,7 +40,7 @@ Welcome to my personal quest to become a world-class problem solver! I solve at 
 | **Level**       | **XP**    | **Rank**             | **Skills Unlocked**                                  | **Badges**              |
 |-----------------|-----------|----------------------|------------------------------------------------------|-------------------------|
 | **Level 2**     | 265/300   | **Apprentice Coder**  | Sliding Window Master, HashMap Whisperer, Stack Handler | 🏅 "Apprentice"         |
-| **Level 1**     | 100/100   | **Novice Coder**      | Basic problem-solving, fundamentals, simple arrays    | 🏅 "First Steps"        |
+| **Level 1**     | 200/200   | **Novice Coder**      | Basic problem-solving, fundamentals, simple arrays    | 🏅 "First Steps"        |
 | **Level 0**     | 0/100     | **Beginner**          | First learning steps, small problem-solving techniques | 🏅 "Newbie"             |
 
 ---
@@ -52,12 +52,12 @@ Welcome to my personal quest to become a world-class problem solver! I solve at 
 - **Skills Unlocked**: First learning steps, small problem-solving techniques  
 - **Challenge**: Understand Easy problems
 
-### **Level 1: Novice Coder** (0–100 XP) 
+### **Level 1: Novice Coder** (100–200 XP) 
 - **Reward**: "First Steps" badge  
 - **Skills Unlocked**: Basics of problem-solving and fundamentals.  
 - **Challenge**: Solve 10 Easy problems
 
-### **Level 2: Apprentice Coder** (100–300 XP)
+### **Level 2: Apprentice Coder** (200–300 XP)
 - **Reward**: "Apprentice" badge  
 - **Skills Unlocked**: HashMaps, Sliding Window, Two Pointers.  
 - **Challenge**: Solve 10 Medium problems
