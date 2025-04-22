@@ -39,30 +39,35 @@ Welcome to my personal quest to become a world-class problem solver! I solve at 
 
 | **Level**       | **XP**    | **Rank**             | **Skills Unlocked**                                  | **Badges**              |
 |-----------------|-----------|----------------------|------------------------------------------------------|-------------------------|
-| **Level 3**     | 265/300   | **Apprentice Coder**  | Sliding Window Master, HashMap Whisperer, Stack Handler | 🏅 "Apprentice"         |
-| **Level 2**     | 100/100   | **Novice Coder**      | Basic problem-solving, fundamentals, simple arrays    | 🏅 "First Steps"        |
-| **Level 1**     | 0/100     | **Beginner**          | First learning steps, small problem-solving techniques | 🏅 "Newbie"             |
+| **Level 2**     | 265/300   | **Apprentice Coder**  | Sliding Window Master, HashMap Whisperer, Stack Handler | 🏅 "Apprentice"         |
+| **Level 1**     | 100/100   | **Novice Coder**      | Basic problem-solving, fundamentals, simple arrays    | 🏅 "First Steps"        |
+| **Level 0**     | 0/100     | **Beginner**          | First learning steps, small problem-solving techniques | 🏅 "Newbie"             |
 
 ---
 
 ## 🌟 **Leveling Up System**
+
+### **Level 0: Beginner** (0–100 XP) 
+- **Reward**: "Newbie" badge  
+- **Skills Unlocked**: First learning steps, small problem-solving techniques  
+- **Challenge**: Understand Easy problems
 
 ### **Level 1: Novice Coder** (0–100 XP) 
 - **Reward**: "First Steps" badge  
 - **Skills Unlocked**: Basics of problem-solving and fundamentals.  
 - **Challenge**: Solve 10 Easy problems
 
-### **Level 2: Apprentice Coder** (101–200 XP)
+### **Level 2: Apprentice Coder** (100–300 XP)
 - **Reward**: "Apprentice" badge  
 - **Skills Unlocked**: HashMaps, Sliding Window, Two Pointers.  
 - **Challenge**: Solve 10 Medium problems
 
-### **Level 3: Problem Solver** (201–300 XP)
+### **Level 3: Problem Solver** (300–500 XP)
 - **Reward**: "Master of Medium" badge + 1 skill unlock  
 - **Skills Unlocked**: Mastery of Medium problems, Stack and Dynamic Programming basics.  
 - **Challenge**: Tackle a Hard problem (even if not fully solved)
 
-### **Level 4: Code Master** (301–500 XP)
+### **Level 4: Code Master** (500+ XP)
 - **Reward**: "Code Master" badge 🏆  
 - **Skills Unlocked**: Hard problems mastery, Advanced techniques (Graphs, Trees, DP)  
 - **Challenge**: Solve 10 Hard problems
@@ -80,10 +85,11 @@ Welcome to my personal quest to become a world-class problem solver! I solve at 
 
 ---
 
-### 🚀 **Progress Bar**
+#### 🚀 **Progress Bar**
 
-#### **XP Progress:**
-[██████████──────────] 265/300 XP (Level 3)  
+
+#### **XP Progress:** 
+[██████████──────────] 265/300 XP (Level 3)
 
 #### **Hard Problem Progress:**
 [████████─────────────] 50% - Getting ready for that next hard problem!
