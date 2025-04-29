@@ -17,6 +17,26 @@ class Solution:
         head.next = None
 
         return last
+    
+        '''
+        Best Approach if no constriant of using recursion or stack
+
+        prev = None
+        current = head
+        
+        while current:
+            next_node = current.next  # Store next node
+            current.next = prev  # Reverse the link
+            prev = current  # Move prev to current node
+            current = next_node  # Move to next node
+        
+        return prev  # prev is the new head of the reversed list
+
+
+        #Time Complexity: O(n)
+        #Space Complexity: O(1)
+
+        '''
 
 
         '''
@@ -30,6 +50,9 @@ class Solution:
 
         This method reverses the list using recursion, working its way to the end and flipping pointers as the stack unwinds.
 
+        #Time Complexity: O(n)
+        #Space Complexity: O(n)
+
         Approach(Stack Based):
 
         •	Step 1: Initialize a Stack :Create an empty stack to store all nodes of the linked list as you traverse.
@@ -38,6 +61,9 @@ class Solution:
 	    •	Step 4: Re-link Nodes in Reverse Order: Continue popping nodes one by one. For each popped node, set the .next of the previous node to the current node.
 	    •	Step 5: Terminate the List: After all nodes are re-linked, make sure to set the .next of the last node to None to mark the end of the list.
 	    •	Step 6: Return New Head: Return the new head that was popped first from the stack.
+
+        #Time Complexity: O(n)
+        #Space Complexity: O(n)
         '''
 
         
