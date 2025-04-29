@@ -3,8 +3,11 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
+from typing import Optional
+
+
 class Solution:
-    def oddEvenList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+    def oddEvenList(self, head: Optional[ListNode]) -> Optional[ListNode]: # type: ignore
 
         if head is None or head.next is None:
             return head
