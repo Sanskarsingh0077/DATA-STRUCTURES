@@ -1,5 +1,7 @@
 # 🧠 **My DSA Journey - Becoming a Code Hero** 🚀
 
+<img src="a2ff38e6dabe42407dda97a9b970e96ca516f4e35d9a93948cea32a9bd75f1b5.png" alt="Github Banner" style="width:50%"/>
+
 Welcome to my personal quest to become a world-class problem solver! I solve at least **1 problem a day**, log my learnings, and push everything here. It's not just coding — it's leveling up my logic one day at a time. 💪
 
 ---
