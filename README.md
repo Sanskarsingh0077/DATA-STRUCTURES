@@ -1,5 +1,7 @@
 # 🧠 **My DSA Journey - Becoming a Code Hero** 🚀
 
+<img src="a2ff38e6dabe42407dda97a9b970e96ca516f4e35d9a93948cea32a9bd75f1b5.png" alt="Github Banner" style="width=100%"/>
+
 Welcome to my personal quest to become a world-class problem solver! I solve at least **1 problem a day**, log my learnings, and push everything here. It's not just coding — it's leveling up my logic one day at a time. 💪
 
 ---
@@ -24,6 +26,14 @@ Welcome to my personal quest to become a world-class problem solver! I solve at 
 | 14  | ✅             | Matrix & tuple check trick learned |
 | 15  | ✅             | Attempted hard, solved medium |
 | 16  | ✅             | Solved medium stack problem, peeked at hard robot collision – scary but learning! 💥🤖 |
+| 17  | ✅             | Solved string + stack decode problem |
+| 18  | ✅             | Learned reverse linked list (recursion + iteration) |
+| 19  | ✅             | Solved odd-even linked list reordering |
+| 20  | ✅             | Solved maximum twin sum in linked list |
+| 21  | ✅             | Compared recursion vs stack vs iterative |
+| 22  | ✅             | Wrapped linked lists, graphs intro begins |
+| 23  | ✅             | Daily bug fix + reflection |
+
 
 ---
 
@@ -37,11 +47,12 @@ Welcome to my personal quest to become a world-class problem solver! I solve at 
 
 ### 🧙 **Hero Stats**
 
-| **Level**       | **XP**    | **Rank**             | **Skills Unlocked**                                  | **Badges**              |
-|-----------------|-----------|----------------------|------------------------------------------------------|-------------------------|
-| **Level 2**     | 265/300   | **Apprentice Coder**  | Sliding Window Master, HashMap Whisperer, Stack Handler | 🏅 "Apprentice"         |
-| **Level 1**     | 200/200   | **Novice Coder**      | Basic problem-solving, fundamentals, simple arrays    | 🏅 "First Steps"        |
-| **Level 0**     | 0/100     | **Beginner**          | First learning steps, small problem-solving techniques | 🏅 "Newbie"             |
+
+| **Level**       | **XP**      | **Rank**             | **Skills Unlocked**                                              | **Badges**                          |
+|-----------------|-------------|----------------------|------------------------------------------------------------------|-------------------------------------|
+| **Level 3**     | 405/500     | **Problem Solver**   | Medium mastery, Recursion Builder, Linked List Navigator         | 🏅 Apprentice, 🏅 Stack Whisperer, 🏅 Recursion Initiate |
+| **Level 2**     | 300/300     | **Apprentice Coder** | Sliding Window Master, HashMap Whisperer, Stack Handler          |                                     |
+| **Level 1**     | 200/200     | **Novice Coder**     | Basic problem-solving, fundamentals, simple arrays               |                                     |
 
 ---
 
@@ -76,23 +87,24 @@ Welcome to my personal quest to become a world-class problem solver! I solve at 
 
 ## 💡 **Badges and Achievements** 🎖️
 
-| **Badge**         | **Achievement**                                  | **XP**  |
-|-------------------|--------------------------------------------------|---------|
-| 🏅 "Apprentice"    | Solved 10 medium problems                        | +50 XP  |
-| 🏆 "Code Master"   | Solved 10 hard problems                          | +100 XP |
-| 🏅 "Stack Whisperer" | Solved a stack-based problem                    | +20 XP  |
-| 🥇 "Sliding Window Guru" | Mastered the sliding window technique         | +20 XP  |
+| **Badge**              | **Achievement**                               | **XP**  |
+|------------------------|-----------------------------------------------|---------|
+| 🏅 "Apprentice"         | Solved 10 medium problems                     | +50 XP  |
+| 🏅 "Stack Whisperer"    | Solved a stack-based problem                  | +20 XP  |
+| 🏅 "Recursion Initiate" | Learned recursion and reversed linked list   | +20 XP  |
+| 🏅 "Linked List Navigator" | Completed full linked list section         | +20 XP  |
+
 
 ---
 
 #### 🚀 **Progress Bar**
 
 
-#### **XP Progress:** 
-[██████████──────────] 265/300 XP (Level 3)
+#### **XP Progress:**  
+`[███████████████────] 405/500 XP (Level 3)`
 
-#### **Hard Problem Progress:**
-[████████─────────────] 50% - Getting ready for that next hard problem!
+#### **Hard Problem Progress:**  
+`[████████─────────────] 50% - Getting ready for that next hard problem!`
 
-#### **Days Logged:**
-[█████████████████────] 16/30 days streak!
+#### **Days Logged:**  
+`[███████████████████████─] 23/30 days`
