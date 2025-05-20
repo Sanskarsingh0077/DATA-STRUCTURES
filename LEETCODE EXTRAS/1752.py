@@ -19,7 +19,7 @@ class Solution:
             5.	Otherwise, return True.
 
         Time: O(n) — single pass through the array
-	•	Space: O(1) — constant space used
+	    Space: O(1) — constant space used
 
 
         '''
