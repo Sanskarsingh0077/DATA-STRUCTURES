@@ -7,7 +7,7 @@ class Solution:
                 result.append(curr)
                 return
             
-            if target <= 0:
+            if target < 0:
                 return
             
             for i in range(idx,len(candidates)):
