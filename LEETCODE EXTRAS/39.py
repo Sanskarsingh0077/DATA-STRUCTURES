@@ -20,5 +20,5 @@ class Solution:
         return result
     
     '''
-    Apprach: Similar to 296. Take it as reference.
+    Apprach: Similar to 216. Take it as reference.
     '''
