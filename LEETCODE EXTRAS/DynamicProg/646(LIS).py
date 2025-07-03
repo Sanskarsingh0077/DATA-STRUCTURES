@@ -2,7 +2,7 @@ class Solution:
     def findLongestChain(self, pairs: List[List[int]]) -> int:
         # Top Down Memoization LIS Variant
 
-        '''
+        
         pairs.sort(key=lambda x:x[1]) # sort array for second element
         n = len(pairs)
 
@@ -30,7 +30,7 @@ class Solution:
 
         
         return solve(0,-1)
-        '''
+        
 
         #Bottom Up
         pairs.sort(key=lambda x:x[1])
@@ -45,3 +45,17 @@ class Solution:
                     maxLIS = max(maxLIS,t[i])
 
         return maxLIS
+    
+    
+    # Greedy and Optimal Version
+
+        pairs.sort(key=lambda x:x[1])
+        count = 0
+        curr_end = float('-inf')
+
+        for start,end in pairs:
+            if start > curr_end:
+                count += 1
+                curr_end = end
+
+        return count
