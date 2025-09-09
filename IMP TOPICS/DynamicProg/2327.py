@@ -1,5 +1,5 @@
 def peopleAwareOfSecret(self, n: int, delay: int, forget: int) -> int:
-        '''
+        
         #Top Down Memoization
 
         m = 10**9+7
@@ -29,9 +29,9 @@ def peopleAwareOfSecret(self, n: int, delay: int, forget: int) -> int:
         return total
 
 
-        Time Complexity: O(n*(forget-delay))
-        Space Complexity: O(n) -- Creating dp Array of n
-        '''
+        #Time Complexity: O(n*(forget-delay))
+        #Space Complexity: O(n) -- Creating dp Array of n
+        
 
         #Bottom Up 
 
@@ -45,6 +45,35 @@ def peopleAwareOfSecret(self, n: int, delay: int, forget: int) -> int:
             count = 0
             for prev in range(day-forget+1, day-delay+1):
                 count = (count + t[prev])%m
+
+            t[day] = count
+
+        res = 0
+        for day in range(day-forget+1, n+1):
+            if day>0:
+
+                res = (res + t[day])%m
+
+        return res
+    
+    #Optimized Bottom Up:
+
+        m = 10**9+7
+
+        t = [0]*(n+1)
+
+        t[1] = 1
+
+        count = 0
+        #Sliding Window Application
+        for day in range(2,n+1):
+            if day - delay > 0:
+
+                count = (count + t[day-delay])%m
+
+            if day - forget > 0:
+    
+                count = count - t[day-forget]%m
 
             t[day] = count
 
