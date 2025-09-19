@@ -1,6 +1,35 @@
 #1092. Shortest Common Supersequence 
 
 class Solution:
+    
+    #Function to find length of shortest common supersequence of two strings.
+    def shortestCommonSupersequence(self, s1, s2):
+        m = len(s1)
+        n = len(s2)
+        dp = [[-1] * (n+1) for _ in range(m+1)]
+
+         #code here
+        def solve(i, j):
+            if i == 0:
+                return j
+            if j == 0:
+                return i
+                
+            if dp[i][j] != -1:
+                return dp[i][j]
+                
+            
+            if s1[i-1] == s2[j-1]:
+                dp[i][j] =  1 + solve(i-1, j-1)
+            
+            
+            else:
+                dp[i][j] = 1 + min(solve(i-1, j),solve(i,j-1))
+            return dp[i][j]
+            
+        return solve(m,n)
+
+class Solution:
     def shortestCommonSupersequence(self, str1: str, str2: str) -> str:
         m = len(str1)
         n = len(str2)
