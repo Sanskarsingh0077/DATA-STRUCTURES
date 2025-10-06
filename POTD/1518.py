@@ -11,3 +11,4 @@ class Solution:
             empty = empty % numExchange
 
         return ans
+    
