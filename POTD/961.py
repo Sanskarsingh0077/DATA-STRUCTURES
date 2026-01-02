@@ -8,11 +8,12 @@ class Solution:
         numset = set()
 
         for i in range(n):
-            if nums[i] not in numset:
-                numset.add(nums[i])
-
-            else:
+            if nums[i] in numset: 
                 return nums[i]
+
+            numset.add(nums[i])
+            
+        '''
 
         '''
 
@@ -24,4 +25,14 @@ class Solution:
 
         return nums[-1]
 
-        
+        '''
+
+        # Using HashMap - Time and Space: O(N)
+
+        freq = {}
+
+        for num in nums:
+            if num in freq:
+                return num
+
+            freq[num] = 1
