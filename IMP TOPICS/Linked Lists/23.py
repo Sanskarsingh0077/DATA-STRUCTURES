@@ -1,10 +1,28 @@
 # Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
+from typing import Optional
+
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
+def build_ll(arr):
+    dummy = ListNode()
+    cur = dummy
+    for x in arr:
+        cur.next = ListNode(x)
+        cur = cur.next
+    return dummy.next
+
+def print_ll(head):
+    res = []
+    while head:
+        res.append(head.val)
+        head = head.next
+    print(res)
+    
 class Solution:
-    def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
+    def mergeKLists(self, lists: list[Optional[ListNode]]) -> Optional[ListNode]:
         n = len(lists)
 
         def mergetwo(l1, l2): # O(N)
@@ -52,5 +70,7 @@ class Solution:
 
         '''
 
-
-
+lists = [build_ll([1,4,5]), build_ll([1,3,4]), build_ll([2,6])]
+sol = Solution()
+ans = sol.mergeKLists(lists)
+print_ll(ans)
