@@ -37,6 +37,10 @@ class Solution:
                 return res
 
 
+sol = Solution()
+arr = [1,6,7,4,8,4,3,9,0,3,26,7,4,3]
+k = len(arr)
+print(sol.topKFrequent(arr, k))
 
 
 
