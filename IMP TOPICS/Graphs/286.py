@@ -18,8 +18,6 @@ class Solution:
                 if grid[i][j] == 0:
                     visit.add((i,j))
                     queue.append([i,j])
-                    
-
 
         dist = 0
         while queue:
