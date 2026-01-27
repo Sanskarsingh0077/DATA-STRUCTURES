@@ -1,6 +1,6 @@
 class Solution:
-    # Dijkstra Variant
     def minCost(self, n: int, edges: List[List[int]]) -> int:
+        '''
 
         # Create a new list of edges with original and reversed edges
         final = []
@@ -35,3 +35,36 @@ class Solution:
 
 
         return shortest[n-1] if n - 1 in shortest else -1 # Return shortest Route
+
+        '''
+
+        #Using Dijkstra with array
+
+        adj = [[] for _ in range(n)]
+
+        for u, v, w in edges:
+            adj[u].append((v,w))
+            adj[v].append((u,2*w))
+
+        mincost = [float('inf')] * n
+        mincost[0] = 0
+        heap = [(0, 0)]
+
+        while heap:
+            cost , node = heapq.heappop(heap)
+
+            if node == n - 1:
+                return cost
+
+            if cost > mincost[node]:
+                continue
+            
+            for neighbor, newCost in adj[node]:
+                new_cost = cost + newCost
+
+                if new_cost < mincost[neighbor]:
+                    mincost[neighbor] = new_cost
+                    heapq.heappush(heap, (new_cost, neighbor))
+
+        return -1
+
