@@ -39,6 +39,11 @@ def shortestPath(n: int, edges: List[List[int]], src: int) -> Dict[int, int]:
 
     return shortest
 
+#TC : O( E log V)
+
+# Don't Work for -ve Edges
+# Can't Help in detecting -ve cycles
+
 n = 5
 edges = [[0,1,10], [0,2,3], [1,3,2], [2,1,4], [2,3,8], [2,4,2], [3,4,5]]
 src = 0
