@@ -1,5 +1,50 @@
 class Solution:
     def pacificAtlantic(self, heights: List[List[int]]) -> List[List[int]]:
+        m = len(heights)
+        n = len(heights[0])
+
+        pacific = set()
+        atlantic = set()
+
+        directions = [(0,1), (1,0), (-1,0), (0,-1)]
+
+        def bfs(starts, visit):
+            queue = deque(starts)
+            
+            for (i,j) in starts:
+                visit.add((i,j))
+                
+
+            while queue:
+                x, y = queue.popleft()
+
+                for dx, dy in directions:
+                    nx, ny = x + dx, y + dy
+
+                    if 0 <= nx < m and 0 <= ny < n and heights[nx][ny] >= heights[x][y] and (nx,ny) not in visit:
+                        visit.add((nx,ny))
+                        queue.append((nx, ny))
+                        
+        pacific_starts = [(0,c) for c in range(n)] + [(r,0) for r in range(m)]
+        bfs(pacific_starts, pacific)
+        
+        atlantic_starts = [(r,n-1) for r in range(m)] + [(m-1, c) for c in range(n)]
+        bfs(atlantic_starts, atlantic)
+        
+        res = []
+        
+        for i in range(m):
+            for j in range(n):
+                if (i,j) in pacific and (i,j) in atlantic:
+                    res.append([i,j])
+                    
+        return res
+        
+        
+
+        
+        
+'''
         row = len(heights)
         col = len(heights[0])
 
@@ -45,5 +90,4 @@ class Solution:
 
 
         return res
-
-
+'''
