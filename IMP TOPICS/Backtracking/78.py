@@ -1,5 +1,6 @@
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
+        '''
         res = []
         subset = []
         def decision(idx):
@@ -16,5 +17,19 @@ class Solution:
             decision(idx + 1)
 
         decision(0)
+        return res
+    
+        '''
+        
+        res = []
+        def backtrack(idx, path):
+            res.append(path[:])
+            
+            for i in range(idx, len(nums)):
+                path.append(nums[i])
+                backtrack(i+1, path)
+                path.pop()
+                
+        backtrack(0, [])
         return res
 
