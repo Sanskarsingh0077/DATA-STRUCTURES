@@ -95,6 +95,59 @@ class Solution:
         l,r = res
 
         return s[l:r+1] if res_len != float('inf') else ""
+    
+    
+    '''
+    
+    class Solution:
+    def minWindow(self, s: str, t: str) -> str:
+        hashmap = {ch : 0 for ch in string.ascii_letters} # Store all Letters in dic ch : freq
+
+        # Increase freq as per t string
+        for i in t:
+            if i not in hashmap:
+                hashmap[i] = 0
+
+            hashmap[i] += 1
+
+        left = 0
+        right = 0
+        minlength = float('inf')
+        startIndex = -1
+
+        n = len(s)
+        m = len(t)
+        count = 0
+
+        while right < n:
+            # Start checking in s 
+            if hashmap[s[right]] > 0:
+                count += 1
+            hashmap[s[right]] -= 1
+
+
+            while count == m:
+                # update min length 
+                if right - left + 1 < minlength:
+                    minlength = right - left + 1
+                    startIndex = left
+
+                # Shrink left pointer
+                hashmap[s[left]] += 1
+                if hashmap[s[left]] > 0:
+                    count -= 1
+
+                left += 1
+            # Expand Window
+            right += 1
+
+        
+        return "" if startIndex == -1 else s[startIndex: startIndex + minlength]
+
+
+
+    
+    '''
 
 
 
